@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+<body>
+    <form action="/login" method="post">
+        Username: <input type="text" name="username"><br>
+        Password: <input type="password" name="password"><br>
+        Role: <select name="role">
+            <option>admin</option>
+            <option>doctor</option>
+            <option>user</option>
+        </select><br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>

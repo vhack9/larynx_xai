@@ -1,0 +1,4 @@
+fastapi 
+uvicorn[standard] 
+torch 
+torchvision --index-url https://download.pytorch.org/whl/cpu easyfsl grad-cam Pillow sqlalchemy Jinja2 python-multipart reportlab numpy passlib[bcrypt] python-jose[cryptography]
